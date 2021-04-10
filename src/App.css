@@ -1,0 +1,33 @@
+/* body and html set to 100% to avoid limiting children */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+}
+
+.gradient {
+  position: relative;
+  height: 500px;
+  width: 700px;
+  border: 1px solid red;
+  background: url('./components/microscope.png');
+}
+
+.gradient:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+  opacity: 0.5;
+}

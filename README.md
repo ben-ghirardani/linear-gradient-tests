@@ -1,3 +1,5 @@
+images taken from https://unsplash.com/ - free stock images
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,13 +1,20 @@
 import './App.css';
-// import microscope from './components/microscope.png';
 
 function App() {
   return (
     <div className="content">
-      
-      <div className="gradient">
+      <br></br>
+      <br></br>
+      <br></br>
+      <div className="test-gradient">
       </div>
-
+      <br></br>
+      <br></br>
+      <div className="download">
+      </div>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   );
 }

@@ -13,21 +13,42 @@ body, html {
   overflow: scroll;
 }
 
-.gradient {
+.test-gradient {
   position: relative;
   height: 500px;
   width: 700px;
-  border: 1px solid red;
-  background: url('./components/microscope.png');
+  background: url('./components/microscope.png') center center no-repeat;
 }
 
-.gradient:before {
+/* box-shadow to blur the edges of the image? */
+.test-gradient:before {
   content: '';
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
-  opacity: 0.5;
+  background-image: 
+    linear-gradient(120deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 70%),
+    linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 99%);
+}
+
+.download {
+  position: relative;
+  height: 500px;
+  width: 700px;
+  background: url('./components/download.jpg') center center no-repeat;
+}
+
+/* box-shadow to blur the edges of the image? */
+.download:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: 
+    linear-gradient(120deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 70%),
+    linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 99%);
 }

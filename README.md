@@ -1,4 +1,5 @@
 images taken from https://unsplash.com/ - free stock images
+faces from https://generated.photos/faces/front-facing/neutral
 
 # Getting Started with Create React App
 
